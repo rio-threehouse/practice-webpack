@@ -9,4 +9,8 @@ module.exports = {
   },
   // デフォルト production
   mode: 'development',
+  devServer: {
+    contentBase: "dist",
+    open: true
+  },
 };
